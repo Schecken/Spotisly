@@ -94,7 +94,7 @@ Encodes the message using a key. If your message is longer than the key, it will
 - You can specify with `--key/-k` (hex only)
 - You can generate a one time pad with `--otp` which will randomly generate a 32 character key
 
-> ![TIP]
+> [!TIP]
 > For both encode/decode, it won't work if you have letters in positions that aren't common for tracks/artists
 > If your key has a 1 or 2 at the same position as a space in your message, it probably won't work
 
@@ -123,7 +123,7 @@ I did this just to muck around a see whether it could be done
 | Human-like playlist/album browsing |      ❌     |      ❌    |       ✅     |
 | Add/remove mistake simulation      |      ❌     |      ❌    |       ✅     |
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Even though I implemented the OPSEC levels, it is still sending requests to `api.spotify.com` and not `open.spotify.com` (where normal user traffic goes) so if someone was actually looking, they can probably tell it isn't a real user. Oh well.
 
 `sleep_with_jitter()`
