@@ -114,7 +114,7 @@ Decodes the message using a key
 
 ## OPSEC:
 I did this just to muck around a see whether it could be done
-| **Feature**                        | **Level 0** | **Level 1** | **Level 2+** |
+| **Feature**                        | **Level 0** | **Level 1** | **Level 2** |
 | ---------------------------------- | :---------: | :---------: | :----------: |
 | Genre/Artist noise                 |      ❌     |      ✅    |       ✅     |
 | Random jitter delays               |      ❌     |      ✅    |       ✅     |
