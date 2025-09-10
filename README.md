@@ -9,7 +9,7 @@ Dunno, felt like it
 # Features
 ## Encode & decode messages:
 - **Track Titles**: Encodes each character by finding a track whose title contains the character at a specific position (based on the key)
-- **Artist Names**: Similar to track titles, but uses the concatenated artist string (e.g., `"Deadmau5, Skrillex"`) as the match field
+- **Artist Names**: Similar to track titles, but uses the concatenated artist string (e.g., `"Metallica, AC/DC"`) as the match field
 - **Duration**: Maps characters to time windows. For example, the letter `a` may correspond to tracks 60–90 seconds long, while `z` might be 300–330 seconds. This creates a unique but looser mapping suitable for low-entropy messaging.
 
 ## Fallback Strategy:
