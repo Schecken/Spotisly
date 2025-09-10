@@ -76,7 +76,7 @@ python3 spotisly.py decode -t track -p "Chill Vibes" --key a1b2c3
 | `--technique` / `-t`      | Encoding method: `track`, `artist`, `duration`                                |
 | `--key` / `-k` / `--otp`  | Manual key or auto-generated one-time pad                                     |
 | `--genre` / `-g`          | Filter by genre (with fallback expansion)                                     |
-| `--artist` / `-a`         | Filter by artist(s), separate by comma for multiple (`'Deadmau5, Skrillex'`)  |
+| `--artist` / `-a`         | Filter by artist(s), separate by comma for multiple (`'Metallica, AC/DC'`)  |
 | `--playlist` / `-p`       | Playlist name to create or decode                                             |
 | `--highlight` / `-H`      | Underline the encoded character                                               |
 | `--opsec` / `-o`          | OPSEC level: `1` or `2`                                                      |
